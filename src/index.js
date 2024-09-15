@@ -47,3 +47,11 @@ reportWebVitals();
 // 8. Why do we use className and not class? ---> kyunki hum jsx return krate hain jo ki JS hi hai use JS mai "class" already reserved keyword hai.
 
 // 9. jsx ko Syntactic sugar bhi kehte hain kyunki vo bni hi iske lie h ki human can read easily
+
+// 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_token
+
+// 10. React.createElement(HTML element, properties or attributes of the element , content ), ye JSX ko HTML m convert(transpiled) kr deta h jo hume browser p show hota h
+
+// 11. agar hum ye(React.createElement) use ni krre tb bhi react ko import krna h comp mai taaki properly jsx conversion ho ur properly use ho, ye react 17 version se phle tha necessary, av ni h, lekin phir bhi recommended to use
+
+//12. Card component: Reusability, Encapsulating(make at one place, use at many place), Flexibility(elements, components aa skte hain children m)

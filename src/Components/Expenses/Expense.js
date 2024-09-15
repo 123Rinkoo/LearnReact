@@ -1,6 +1,6 @@
 import React from "react";
-import ExpenseList from "./2ExpenseItem.js"; // Import the CSS file
-import Card from "./0Card.js"; // Import the CSS file
+import ExpenseList from "./ExpenseItem.js"; // Import the CSS file
+import Card from "../UI/Card.js"; // Import the CSS file
 
 import "./Expense.css"; // Import the CSS file
 
@@ -26,11 +26,15 @@ const expenses = [
 ];
 
 const Expense = () => {
-  return (
-    <Card>
-      <h1 className="expense-list-items">Expense Items</h1>
-      <ExpenseList expenses={expenses} />
-    </Card>
+  return React.createElement(
+    Card,
+    {},
+    React.createElement(
+      "h1",
+      { className: "expense-list-items" },
+      "Expense Items"
+    ),
+    React.createElement(ExpenseList, { expenses: expenses })
   );
 };
 
