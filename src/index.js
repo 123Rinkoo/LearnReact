@@ -55,3 +55,9 @@ reportWebVitals();
 // 11. agar hum ye(React.createElement) use ni krre tb bhi react ko import krna h comp mai taaki properly jsx conversion ho ur properly use ho, ye react 17 version se phle tha necessary, av ni h, lekin phir bhi recommended to use
 
 //12. Card component: Reusability, Encapsulating(make at one place, use at many place), Flexibility(elements, components aa skte hain children m)
+
+// 13. react render kr deta h browser p ur phir jab koi variable change hota h to react re render nai kr pata iske lie hume use signal dena pdega ki ek component updated and re render.
+
+// 14. React ko btane k liye hum usestate method(hook) ka use krte hain ye allow us to create a special variable(called state) jisko react dekhta rehta, agr state change then react render
+
+// 15On subsequent renders, useState does not re-initialize the state. It remembers the last value of title, and only updates when setTitle is called.
